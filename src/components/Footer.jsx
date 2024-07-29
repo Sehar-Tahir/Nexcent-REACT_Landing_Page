@@ -24,7 +24,7 @@ const Footer = () => {
 
     <div className='d-flex flex-column text-white'>
      <h4>Company</h4>
-     <ul>
+     <ul className='list-unstyled'>
       <li>About Us</li>
       <li>Blogs</li>
       <li>Contact Us</li>
@@ -35,7 +35,7 @@ const Footer = () => {
 
     <div className='d-flex flex-column text-white'>
      <h4>Support</h4>
-     <ul>
+     <ul className='list-unstyled'>
       <li>Help Center</li>
       <li>Terms of service</li>
       <li>Legal</li>

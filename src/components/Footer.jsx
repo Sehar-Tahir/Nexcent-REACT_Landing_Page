@@ -5,7 +5,7 @@ import SocialLinks from "../assets/SocialLinks.png"
 const Footer = () => {
   return (
     <>
-    <footer className='h-628px'>
+    <footer className='h-628px mt-3'>
     <div className="d-flex flex-column mb-3 justify-content-center align-items-center mt-3">
   <h1 className='fw-bold'>Pellentesque suscipit fringilla libero eu.</h1>
   <h1 className='fw-bold'>fringilla libero eu.</h1>
@@ -13,7 +13,7 @@ const Footer = () => {
   </div>
 
 
-    <div className="d-flex flex-row  justify-content-evenly align-items-center gap-10 bg-black mt-3 p-3 ">
+    <div className="d-flex flex-row  justify-content-evenly align-items-center gap-10 bg-black mt-3 p-3 sm-flex-column">
 
     <div className='d-flex flex-column gap-1 text-white'>
      <img src={Logo} alt="" />

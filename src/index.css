@@ -5,11 +5,6 @@ span{
 *{
  font-family: "Poppins", sans-serif;
 }
-
-@include media-breakpoint-down(sm) { ... }
-@include media-breakpoint-down(md) {
-    
- }
-@include media-breakpoint-down(lg) { ... }
-@include media-breakpoint-down(xl) { ... }
-@include media-breakpoint-down(xxl) { ... }
+nav  li .active{
+    font-weight: bold;
+}

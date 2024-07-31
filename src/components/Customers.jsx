@@ -3,7 +3,7 @@ import Image from '../assets/image.png'
 import Customer from "../assets/Customer.png"
 const Customers = () => {
   return (
-    <div className="d-flex justify-content-evenly align-items-center my-3 mx-10 gap-3">
+    <div className="d-flex justify-content-evenly align-items-center gap-3 Customers">
           <img src={Image} alt="" />
 
           <div className='d-flex flex-column'> 

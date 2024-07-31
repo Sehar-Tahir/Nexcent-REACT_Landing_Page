@@ -5,6 +5,87 @@ span{
 *{
  font-family: "Poppins", sans-serif;
 }
+
+.Title{
+    font-weight: 600;
+}
+
+.box{
+    font-weight: 500;
+}
+/* NavBar */
 nav  li .active{
     font-weight: bold;
+}
+.button{
+    /*  */
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 15px;
+}
+
+/* Hero Section */
+.hero-image{
+    width: 280px;
+}
+.HeroSection{
+    padding: 20px;
+}
+
+/* Clients Section */
+.Client-img{
+    width: 80vw;
+    margin: auto;
+}
+
+/* Community Section */
+.Community{
+    padding: 30px 30px 0px 30px;
+    margin-top: 25px;
+}
+.community-boxes{
+    padding: 0px 50px;
+    gap: 10px;
+}
+
+/* Pixelgrade */
+.Pixelgrade{
+ margin-right: 30px;
+}
+/* Design */
+.Design{
+    margin-right: 30px;
+}
+
+/* Customers */
+.Customers{
+    margin: 30px 30px 30px 10px;
+}
+/* Marketing */
+.Marketing-text{
+    font-size: 0.85rem;
+    width: 60vw;
+    margin-top: 12px;
+}
+.Cards{
+   padding: 0px 50px 0px 50px;
+    gap: 50px;
+}
+.Card{
+    width: 350px;
+}
+
+/* Footer */
+.footer-Section{
+    padding: 30px;
+}
+.part{
+    color: rgb(154, 153, 153);
+}
+
+
+@media (max-width:768px){
+    
 }

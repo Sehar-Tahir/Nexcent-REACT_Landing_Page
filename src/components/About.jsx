@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-    <h2 className="text-center mx-3"><span>About Us</span></h2>
+    <h2 className="text-center mx-3 Title"><span>About Us</span></h2>
     <p className="m-3 p-3 border-2px border border-success">
 
 <span>Welcome to Nexcent, </span> your trusted guide to growing your photography business online. Our team is comprised of photography experts, digital marketing specialists, and industry thought leaders who are passionate about helping photographers succeed.

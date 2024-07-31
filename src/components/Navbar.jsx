@@ -26,8 +26,7 @@ const Navbar = () => {
         </li>
           <a className="nav-link active" aria-current="page" href="#"><span>Login</span></a>
          </ul>
-      
-      <button className="btn btn-success my-2 my-sm-0" type="submit">Sign UP</button>
+      <button className="button" type="submit">Sign UP</button>
   </div>
 </nav>
 </>

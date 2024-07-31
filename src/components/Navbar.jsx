@@ -3,34 +3,42 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
+    <>
     <nav className="navbar navbar-expand-lg bg-light p-3">
-  <div className="container-fluid mb-3">
-        <img src={Logo} alt="logo" className= "navbar-brand"  />
-    <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0 mr-8">
-        <li className="nav-item">
-          <Link className="nav-link" to="/">Home</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/about">About Us</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/service">Services</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/contact">Contact Us</Link>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Blogs</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#"><span>Login</span></a>
-        </li>
-          </ul>
-        <button className="btn btn-success">Sign UP</button>
-    </div>
-  </div>
-</nav>
+    <img src={Logo} alt="logo" className= "navbar-brand"  />
+    {/* <div className='container-fluid'> */}
+      {/* <div className='d-flex align-items-center'></div> */}
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+    
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+             </li>
+             <li className="nav-item">
+               <Link className="nav-link" to="/about">About Us</Link>
+             </li>
+             <li className="nav-item">
+               <Link className="nav-link" to="/service">Services</Link>
+             </li>
+             <li className="nav-item">
+               <Link className="nav-link" to="/contact">Contact Us</Link>
+            </li>
+             <li className="nav-item">
+               <a className="nav-link active" aria-current="page" href="#">Blogs</a>
+             </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#"><span>Login</span></a>
+             </li>
+             </ul>
+          
+          <button className="btn btn-success my-2 my-sm-0" type="submit">Sign UP</button>
+      </div>
+    </nav>
+    </>
+    
   )
 }
 
